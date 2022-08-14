@@ -93,12 +93,12 @@ function App() {
   };
 
   const IvyRecords = () => {
-    setVideo("//www.youtube.com/embed/Q10_IPrfRYA?autoplay=1&mute=1&start=1");
-    setStationName("Ivy Records");
+    setVideo("//www.youtube.com/embed/Bt3bTmzqbcI?autoplay=1&mute=1&start=1");
+    setStationName("Lofi Viet");
     setYoutubeChannal(
-      "https://www.youtube.com/channel/UCv7qaGzuEfLhKxAZf4eZONg"
+      "https://www.youtube.com/channel/UC-4IKYa1Ha21g0RAzfFCkrw"
     );
-    setLivestream("https://www.youtube.com/watch?v=aLqc8TdoLJ0");
+    setLivestream("https://www.youtube.com/watch?v=Bt3bTmzqbcI");
     playLiveStream(true);
     setPauseScreen("unpauseScreen");
     setPlayPause(pauseImg);
@@ -137,12 +137,10 @@ function App() {
   };
 
   const ChillAF = () => {
-    setVideo("//www.youtube.com/embed/b3qGFuCo6NI?autoplay=1&mute=1&start=10");
+    setVideo("//www.youtube.com/embed/SH_Ib4rVuO8?autoplay=1&mute=1&start=10");
     setStationName("ChillAF");
     setYoutubeChannal("https://www.youtube.com/c/CHILLAF");
-    setLivestream(
-      "https://www.youtube.com/watch?v=7bSlyM1allk&ab_channel=CHILLAF"
-    );
+    setLivestream("https://www.youtube.com/watch?v=SH_Ib4rVuO8");
     playLiveStream(true);
     setPauseScreen("unpauseScreen");
     setPlayPause(pauseImg);
@@ -168,9 +166,7 @@ function App() {
     setVideo("//www.youtube.com/embed/lTRiuFIWV54?autoplay=1&mute=1&start=1");
     setStationName("Chilled Cow");
     setYoutubeChannal("https://www.youtube.com/c/LofiGirl");
-    setLivestream(
-      "https://www.youtube.com/watch?v=DWcJFNfaw9c&ab_channel=LofiGirl"
-    );
+    setLivestream("https://www.youtube.com/watch?v=lTRiuFIWV54");
     playLiveStream(true);
     setPauseScreen("unpauseScreen");
     setPlayPause(pauseImg);
@@ -193,14 +189,12 @@ function App() {
   };
 
   const Spinnin = () => {
-    setVideo("//www.youtube.com/embed/G64FJCq1SnI?autoplay=1&mute=1&start=20");
+    setVideo("//www.youtube.com/embed/DXT9dF-WK-I?autoplay=1&mute=1&start=20");
     setStationName("Spinnin' Records");
     setYoutubeChannal(
       "https://www.youtube.com/channel/UCpDJl2EmP7Oh90Vylx0dZtA"
     );
-    setLivestream(
-      "https://www.youtube.com/watch?v=N65Jb683pXQ&ab_channel=Spinnin%27Records"
-    );
+    setLivestream("https://www.youtube.com/watch?v=DXT9dF-WK-I");
     playLiveStream(true);
     setPauseScreen("unpauseScreen");
     setPlayPause(pauseImg);
@@ -209,14 +203,12 @@ function App() {
   };
 
   const NiceGuys = () => {
-    setVideo("//www.youtube.com/embed/Q10_IPrfRYA?autoplay=1&mute=1&start=1");
+    setVideo("//www.youtube.com/embed/NJuSStkIZBg?autoplay=1&mute=1&start=1");
     setStationName("Nice Guys");
     setYoutubeChannal(
       "https://www.youtube.com/channel/UCMmt12UKW571UWtJAgWkWqg"
     );
-    setLivestream(
-      "https://www.youtube.com/watch?v=oVi5gtzTDx0&ab_channel=NiceGuys"
-    );
+    setLivestream("https://www.youtube.com/watch?v=NJuSStkIZBg");
     playLiveStream(true);
     setPauseScreen("unpauseScreen");
     setPlayPause(pauseImg);
@@ -241,7 +233,7 @@ function App() {
   return (
     <div className="interfaceContainer">
       <div className="radioContainer">
-        <div className="logo">StudyBeats</div>
+        <div className="logo">Nhung's Music</div>
         <div className="subHeading"></div>
         <div className="radioStationsContainer">
           <RadioStations
